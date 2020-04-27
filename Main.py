@@ -29,6 +29,8 @@ def button(message):
                                           "Overclocked 5 Ghz Liquid Cooling 2 GB 30 GB NVME \n3)Присоединиться и "
                                           "проявить "
                                           "себя может любой человек достигший 14 лет.")
+    elif message.text == "Пидор":
+        bot.send_message(message.chat.id, 'Сам Пидор')
     elif message.text == "Сервера":
         bot.send_message(message.chat.id, "Паблик: 62.122.213.59:1337")
         bot.send_message(message.chat.id, "HSDM: 212.22.93.196:27030")
